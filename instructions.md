@@ -11,7 +11,7 @@
 ### Running the Application
 
 1. Clone this Git repository to your local machine using `git clone https://github.com/ross-ca/coding-challenges-solutions.git`
-2. Create an environment specific `.env` file in the app's root directory. The only required environment variables are `APP_ENV`, which should be set to `dev`, and `APP_SECRET`, which should be set to a unique random string.
+2. Create an environment specific `.env` file in the app's root directory (coding_challenges_app). The only required environment variables are `APP_ENV`, which should be set to `dev`, and `APP_SECRET`, which should be set to a unique random string.
 3. Open command prompt and navigate to the coding_challenges_app directory.
 4. Run `composer install` to install package dependencies.
 5. Start the Symfony server by running `symfony server:start`.
